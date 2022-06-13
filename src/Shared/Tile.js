@@ -17,4 +17,4 @@ export const SelectableTile = styled(Tile)`
     cursor: pointer;
     ${greenBoxShadow};
   }
-`
+`;
