@@ -1,9 +1,10 @@
 import React from "react";
+import { CryptoCompareAPI } from "../Settings/config";
 
+// API Start, Delete this section or get an API at CryptoCompare.com
 const cc = require("cryptocompare");
-cc.setApiKey(
-  "04a7cc4ad0484b562a6bf48e970e4951c3f204179ccc196aa5ffd21502f92468"
-);
+cc.setApiKey(CryptoCompareAPI); // enter your API key here.
+// API End
 
 export const AppContext = React.createContext();
 
